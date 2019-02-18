@@ -20,7 +20,7 @@ font-family:Comic Sans ms;
   background-color: HotPink;
   border: none;
   border-radius: 15px;
-  margin-left:25%;
+  margin-left:20%;
   margin-bottom:100px;
   }
 .button:hover {
@@ -30,3 +30,9 @@ background-color: Pink
   background-color: Cyan;
   transform: translateX(10px)
   }
+
+ #bg{
+  background:url(main page.jpeg) no-repeat center center;
+  background-size: cover;
+}
+}

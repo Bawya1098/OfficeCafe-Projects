@@ -2,35 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abedad91-6833-46c1-bfbf-3eb539d083ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/OfficeCafe-UI-FrontEnd.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/first_page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/second_page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/third_page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/Gingertea (1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/SB_hd.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/Watermelon_juice.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/apple juice (1).jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/blacktea (1).jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/carrot juice.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/coffee.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/fig juice (1).jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/first_page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/grapejuice (1).jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/juices_main.page.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/lemon juice (1).jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/madrascafe.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/orange_juice (1).jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/pineapple juice.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/second_page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/tea (1).jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/third_page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/third_page_mc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/wm_juice (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/Green tea (1).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/Sapodilla.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/Strawberry milkshake11 (1).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/banana milkshake (1).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/cafe back.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/horlicks .jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/kiwi (1).jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/main page.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/first_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/first_page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/second_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/second_page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/third_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/third_page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/first_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/first_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/second_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/second_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/third_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/third_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/third_page_mc.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/third_page_mc.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,49 +27,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HTML/first_page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CSS/third_page.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-546">
-              <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML/second_page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML/third_page_mc.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="54" lean-forward="true" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTML/third_page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="63" column="38" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="38" />
+            <state relative-caret-position="225">
+              <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
               <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#8;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,14 +69,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CSS/first_page.css" />
-        <option value="$PROJECT_DIR$/HTML/first_page.html" />
-        <option value="$PROJECT_DIR$/CSS/second_page.css" />
         <option value="$PROJECT_DIR$/CSS/page_3.css" />
         <option value="$PROJECT_DIR$/HTML/second_page.html" />
-        <option value="$PROJECT_DIR$/HTML/third_page_mc.html" />
-        <option value="$PROJECT_DIR$/HTML/third_page.html" />
+        <option value="$PROJECT_DIR$/CSS/second_page.css" />
         <option value="$PROJECT_DIR$/CSS/third_page.css" />
+        <option value="$PROJECT_DIR$/HTML/third_page.html" />
+        <option value="$PROJECT_DIR$/HTML/third_page_mc.html" />
+        <option value="$PROJECT_DIR$/HTML/first_page.html" />
+        <option value="$PROJECT_DIR$/CSS/first_page.css" />
       </list>
     </option>
   </component>
@@ -202,10 +154,20 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="98" y="33" width="1297" height="753" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27742946" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27742946" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -214,11 +176,11 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32916668" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.24054463" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32980332" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32829046" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.24054463" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32916668" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32829046" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -233,68 +195,81 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32916668" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.045385778" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32980332" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32829046" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.24054463" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32916668" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32829046" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CSS/first_page.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSS/page_2.css" />
+    <entry file="file://$PROJECT_DIR$/CSS/page_3.css" />
     <entry file="file://$PROJECT_DIR$/CSS/second_page.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/page_3.css" />
-    <entry file="file://$PROJECT_DIR$/HTML/first_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/second_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/third_page_mc.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="54" lean-forward="true" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/third_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="63" column="38" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="38" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#8;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="360">
+          <caret line="51" lean-forward="true" selection-start-line="33" selection-end-line="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CSS/third_page.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-546">
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        <state relative-caret-position="-15">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/second_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/third_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-646">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#10;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/third_page_mc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/first_page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/first_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
