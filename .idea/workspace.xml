@@ -2,22 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abedad91-6833-46c1-bfbf-3eb539d083ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HTML/Green tea (1).jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/Sapodilla.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/Strawberry milkshake11 (1).jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/banana milkshake (1).jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/cafe back.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/horlicks .jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/kiwi (1).jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/main page.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/first_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/first_page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/second_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/second_page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/third_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/third_page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/first_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/first_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/second_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/second_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/third_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/third_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/third_page_mc.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/third_page_mc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/first_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style/first_page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/second_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style/second_page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/third_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style/third_page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/Gingertea (1).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg/Gingertea (1).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/Green tea (1).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg/Green tea (1).jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/SB_hd.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg/SB_hd.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/Sapodilla.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg/Sapodilla.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/Strawberry milkshake11 (1).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg/Strawberry milkshake11 (1).jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/Watermelon_juice.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg/Watermelon_juice.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/apple juice (1).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg/apple juice (1).jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/banana milkshake (1).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg/banana milkshake (1).jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/blacktea (1).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg/blacktea (1).jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/cafe back.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg/cafe back.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/carrot juice.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg/carrot juice.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/coffee.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg/coffee.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/fig juice (1).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg/fig juice (1).jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/first_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/first_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/grapejuice (1).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg/grapejuice (1).jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/horlicks .jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg/horlicks .jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/juices_main.page.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg/juices_main.page.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/kiwi (1).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg/kiwi (1).jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/lemon juice (1).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg/lemon juice (1).jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/madrascafe.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg/madrascafe.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/main page.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg/main page.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/orange_juice (1).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg/orange_juice (1).jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/pineapple juice.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg/pineapple juice.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/second_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/second_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/tea (1).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg/tea (1).jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/third_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/third_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/third_page_mc.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/third_page_mc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/wm_juice (1).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/jpeg/wm_juice (1).jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,15 +45,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HTML/first_page.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/first_page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/style/first_page.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="444">
+              <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -46,6 +69,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -72,19 +96,25 @@
         <option value="$PROJECT_DIR$/CSS/page_3.css" />
         <option value="$PROJECT_DIR$/HTML/second_page.html" />
         <option value="$PROJECT_DIR$/CSS/second_page.css" />
-        <option value="$PROJECT_DIR$/CSS/third_page.css" />
         <option value="$PROJECT_DIR$/HTML/third_page.html" />
-        <option value="$PROJECT_DIR$/HTML/third_page_mc.html" />
         <option value="$PROJECT_DIR$/HTML/first_page.html" />
         <option value="$PROJECT_DIR$/CSS/first_page.css" />
+        <option value="$PROJECT_DIR$/practice/prac.html" />
+        <option value="$PROJECT_DIR$/HTML/third_page_mc.html" />
+        <option value="$PROJECT_DIR$/CSS/third_page.css" />
+        <option value="$PROJECT_DIR$/templates/second_page.html" />
+        <option value="$PROJECT_DIR$/templates/third_page.html" />
+        <option value="$PROJECT_DIR$/templates/third_page_mc.html" />
+        <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/templates/first_page.html" />
+        <option value="$PROJECT_DIR$/static/style/first_page.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="98" />
-    <option name="y" value="33" />
-    <option name="width" value="1297" />
-    <option name="height" value="753" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="807" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -101,16 +131,27 @@
             <path>
               <item name="OfficeCafe-UI-FrontEnd" type="b2602c69:ProjectViewProjectNode" />
               <item name="OfficeCafe-UI-FrontEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="CSS" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OfficeCafe-UI-FrontEnd" type="b2602c69:ProjectViewProjectNode" />
               <item name="OfficeCafe-UI-FrontEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="HTML" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OfficeCafe-UI-FrontEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OfficeCafe-UI-FrontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OfficeCafe-UI-FrontEnd" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="OfficeCafe-UI-FrontEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
             </path>
           </expand>
           <select />
@@ -124,6 +165,10 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jpeg" />
+      <recent name="$PROJECT_DIR$/static/style" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/HTML" />
       <recent name="$PROJECT_DIR$/CSS" />
@@ -140,6 +185,34 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="OfficeCafe-UI-FrontEnd" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -164,21 +237,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="98" y="33" width="1297" height="753" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="807" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27742946" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16772375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286908" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32980332" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32829046" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.24054463" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.22237763" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32829046" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -208,68 +281,60 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CSS/page_2.css" />
     <entry file="file://$PROJECT_DIR$/CSS/page_3.css" />
-    <entry file="file://$PROJECT_DIR$/CSS/second_page.css">
+    <entry file="file://$PROJECT_DIR$/static/style/second_page.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="51" lean-forward="true" selection-start-line="33" selection-end-line="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/third_page.css">
+    <entry file="file://$PROJECT_DIR$/HTML/second_page.html" />
+    <entry file="file://$PROJECT_DIR$/HTML/third_page.html" />
+    <entry file="file://$PROJECT_DIR$/templates/prac.html" />
+    <entry file="file://$PROJECT_DIR$/HTML/third_page_mc.html" />
+    <entry file="file://$PROJECT_DIR$/HTML/first_page.html" />
+    <entry file="file://$PROJECT_DIR$/static/style/third_page.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="117" selection-start-line="117" selection-end-line="117" />
+        <state relative-caret-position="1845">
+          <caret line="123" column="8" selection-start-line="123" selection-start-column="8" selection-end-line="123" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/second_page.html">
+    <entry file="file://$PROJECT_DIR$/templates/third_page_mc.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        <state relative-caret-position="135">
+          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/third_page.html">
+    <entry file="file://$PROJECT_DIR$/templates/third_page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-646">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#7;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#10;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/third_page_mc.html">
+    <entry file="file://$PROJECT_DIR$/templates/second_page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#7;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="270">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/first_page.css">
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/first_page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        <state relative-caret-position="135">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/first_page.html">
+    <entry file="file://$PROJECT_DIR$/static/style/first_page.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="444">
+          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
         </state>
       </provider>
     </entry>

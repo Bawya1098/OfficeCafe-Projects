@@ -32,7 +32,13 @@ background-color: Pink
   }
 
  #bg{
-  background:url(main page.jpeg) no-repeat center center;
+  background:url(main page.jpeg) no-repeat  center;
   background-size: cover;
 }
+
+.title{
+margin-left:28%;
+}
+.sub-title{
+margin-left:13%;
 }

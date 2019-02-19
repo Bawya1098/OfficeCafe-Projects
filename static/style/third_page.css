@@ -121,22 +121,16 @@ background-color:blue;
 {
   height: 100%;
   width:20%;
+  top:0;
   position: fixed;
-  z-index: 1;
-  top: 0;
   margin-left:80%;
-  left: 0;
+  left:0;
   text-align:center;
   background-color:cyan;
-  overflow-x: hidden;
   padding-top: 20px;
 }
 .side_nav_right h2
 {
  text-align:center;
-}
-.side_nav_right hover {
-  color: white;
-  display:block;
 }
 
