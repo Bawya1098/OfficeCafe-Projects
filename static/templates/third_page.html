@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Juice World</title>
     <link rel="stylesheet"  href="../style/third_page.css">
 </head>
 <body>
@@ -27,11 +27,11 @@
     <div class="sub_page"> <h2> Juice World</h2></div>
         <div class="card" style="margin-left:20%">
             <img class="image1" src="../Images/apple juice (1).jpeg" alt="apple juice">
-            <p><input  onclick="myFunction()" type="button" id="btn" value="Apple"></p>
+            <p><input  onclick="myFunction()" type="button" class="btn" value="Apple"></p>
         </div>
     <div  class="card">
             <img class="image1" src="../Images/orange_juice (1).jpeg" alt="Orange" >
-            <p><input type="button" id="btn" onclick="myFunction()" value="orange"></p>
+            <p><input type="button" class="btn" onclick="myFunction()" value="orange"></p>
         </div>
         <div  class="card">
              <img class="image1" src="../Images/carrot juice.jpeg" alt="CARROT ">
@@ -75,7 +75,7 @@
 
 
 <script>
-function myFunction() {
+function myFunction(value) {
   var x = document.createElement("textArea");
   var y = document.getElementById("btn").value;
   var t = document.createTextNode(y);
