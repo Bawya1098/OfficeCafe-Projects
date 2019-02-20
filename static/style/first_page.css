@@ -3,8 +3,8 @@ text-align:center;
 font-size:100px;
 }
 body{
-background-repeat: no-repeat;
-
+background-image:url("../Images/main page.jpeg");
+background-size:cover;
 }
 h2{
 text-align:center;
@@ -31,10 +31,7 @@ background-color: Pink
   transform: translateX(10px)
   }
 
- #bg{
-  background:url(main page.jpeg) no-repeat  center;
-  background-size: cover;
-}
+
 
 .title{
 margin-left:28%;

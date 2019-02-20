@@ -1,19 +1,29 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 from flask_cors import CORS
 
-app = Flask(__name__)
+
+app = Flask(__name__, static_folder="/Users/admin/OfficeCafe-UI-FrontEnd/static/Images")
+
 CORS(app)
-
-
 @app.route('/')
 def index():
     return render_template('first_page.html')
 
 
-# @app.route('/first_page.html')
-# def get_data():
-#     return render_template('second_page.html')
+@app.route('/cafe')
+def second_page():
+    return render_template('second_page.html')
+
+@app.route('/cafe2')
+def third_page():
+    return render_template('third_page.html')
+
+@app.route('/cafe3')
+def third_page1():
+    return render_template('third_page.html')
 
 
-if __name__ == ('__main__'):
+
+
+if __name__ == '__main__':
     app.run()
