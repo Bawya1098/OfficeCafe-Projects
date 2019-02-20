@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/admin/OfficeCafe-Backend/OfficeCafe-UI-FrontEnd/venv"
+set -gx VIRTUAL_ENV "/Users/admin/PycharmProjects/Cafe_Application/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
