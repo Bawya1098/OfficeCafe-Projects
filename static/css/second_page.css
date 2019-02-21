@@ -7,12 +7,9 @@ body{
 .button1 {
   text-align: center;
   outline:none;
-  margin-top:2%;
-  margin-right:25px;
   background-color:white;
   border:20px;
   border-radius:15px;
-  border color:cyan;
   }
 
 .button1:hover {
@@ -21,18 +18,15 @@ body{
 .button2{
 text-align: center;
   outline:none;
-  color: yellow;
-  margin-bottom:25px;
   background-color:white;
   border:20px;
-  position:relative;
   border-radius:15px;
 }
 .button2:hover {
   box-shadow: 0 12px 16px 0 rgba(0,64, 224, 208),0 17px 50px 0 rgba(0,64, 224, 208);
 }
 #home{
-background-color:blue;
+  background-color:blue;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -49,3 +43,7 @@ background-color:blue;
 #home:hover {
   box-shadow: 0 12px 16px 0 rgba(0,64, 224, 208),0 17px 50px 0 rgba(0,64, 224, 208);
 }
+
+
+div{
+    display: inline }
