@@ -1,0 +1,18 @@
+Database Name:  officecafe
+
+//vendor table name: vendor_details
+                       create table vendor_details(vendor_id integer, shopname varchar(20));
+                       insert into vendor_details values(1234,'Madras cafe');
+                       insert into vendor_details values(5678,'Juice world');
+
+
+//List of juices table:list_juices
+                        create table list_juices(id numeric,available_juices varchar(20));
+                        insert into list_juices  values (1,'Apple Juice');
+
+//List of beverages table:list_beverages
+                        create table list_beverages(id numeric,available_beverages varchar(20));
+                        insert into list_beverages values (1,'Tea');
+
+//List of orders table: Orders
+                        create table orders(employee_id numeric,cart_items  varchar(20));
