@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Availbility_Juices</title>
+</head>
+<body>
+<h1>Cold Bevarages</h1>
+<form action="/submission" method="POST" >
+        {% for item in items %}
+        <li style="list-style-type:none;"><input type="checkbox" name="{{item}}" class="check" >{{ item }}</li>
+        {% endfor %}
+<input type="submit"  value="submit" >
+</form>
+</body>
+</html>
