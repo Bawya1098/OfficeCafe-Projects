@@ -8,9 +8,8 @@
 <body>
     <div class="side_nav" id="sidebar">
         <form action="\">
-            <button id="home">Home</button>
-        </form>
-        <form action="/cafe2">
+            <button id="home">Home</button></form>
+        <form action="/cafe3">
             <h3> <a href="third_page_mc.html"> <b>Madras Coffee</b></a></h3>
                 <ul>
                     <li> <a href="third_page_mc.html">Tea</a></li>
@@ -48,7 +47,7 @@
                 <img class="image1" src="../static/assets/images/fig juice (1).jpeg" alt="Fig">
                 <p><input   type="button" value="Fig" class="btn"></p>
             </div>
-            <div  class="card" style="margin-left:20%"  >
+            <div  class="card" style="gtmargin-left:20%"  >
                  <img class="image1" src="../static/assets/images/pineapple juice.jpeg" alt="Pineapple ">
                 <p><input   type="button" value="Pineapple" class="btn"></p>
             </div>
@@ -68,15 +67,15 @@
                  <img class="image1" src="../static/assets/images/banana milkshake (1).jpeg" alt="Banana Milkshake"  >
                 <p><input   type="button" value="Banana Milkshake" class="btn"></p>
             </div>
-            <!--<div class="side_nav_right "  style="margin-left:81%">-->
-                <!--<h1><b>Cart</b></h1>-->
-                <!--<h3><b>Items</b></h3>-->
-            <!--</div>-->
+            <div class="side_nav_right "  style="margin-left:81%">
+                <h1><b>Cart</b></h1>
+                <h3><b>Items</b></h3>
+            </div>
     </div>
         <script>
          var buttons = document.getElementsByClassName('btn');
                for (var i=0 ; i < buttons.length ; i++){
-                 (function(index){
+                (function(index){
                    buttons[index].onclick = function(){
                     var x = document.createElement("textArea");
                     var y = buttons[index].value;

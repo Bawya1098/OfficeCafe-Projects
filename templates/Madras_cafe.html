@@ -33,6 +33,7 @@
             <div class="card" style="margin-left:8%">
                 <img class="image" src="../static/assets/images/tea (1).jpeg" alt="Tea" >
                 <p><input  onclick="myFunction()" type="button" class="btn" value="Tea"></p>
+
             </div>
             <div  class="card">
                  <img class="image" src="../static/assets/images/coffee.jpeg" alt="Coffee">
@@ -55,12 +56,41 @@
                  <img class="image" src="../static/assets/images/horlicks .jpeg" alt="Horlics" >
                  <p><input  onclick="myFunction()" type="button" class="btn" value="Horlics"></p>
             </div>
-        <div class="side_nav_right "  style="margin-left:80%">
-                <h1><b>Cart</b></h1>
-            <h3><b>Items</b></h3>
-            Item 1:  <input type="text" id="myText" value=" ">
-        </div>
+        <!--<div class="side_nav_right "  style="margin-left:80%">-->
+                <!--<h1><b>Cart</b></h1>-->
+            <!--<h3><b>Items</b></h3>-->
+            <!--Item 1:  <input type="text" id="myText" value=" ">-->
+        <!--</div>-->
     </div>
+<script>
+<!--<p><input  onclick="myFunction()" type="button" class="btn" value="Tea"></p>-->
+                <!--<button onclick="myFunction1()">-</button>-->
+                <!--<input type="number" id="myNumber">-->
+                <!--<button onclick="myFunction()">+</button>-->
+
+<!--function myFunction() {-->
+  <!--document.getElementById("myNumber").stepUp();-->
+<!--}-->
+<!--function myFunction1() {-->
+  <!--document.getElementById("myNumber").stepDown();-->
+<!--}-->
+
+    var buttons = document.getElementsByClassName('btn');
+               for (var i=0 ; i < buttons.length ; i++){
+                 (function(index){
+                   buttons[index].onclick = function(){
+                    var x = document.createElement("textArea");
+                    var y = buttons[index].value;
+                    var t = document.createTextNode(y);
+                    x.append(t);
+                    document.body.append(x);
+                    var b = document.createElement("INPUT");
+                    b.setAttribute("type", "number");
+                    b.setAttribute("value", "1");
+                  };
+                  })(i)
+               }
+    </script>
 </body>
 </html>
 
