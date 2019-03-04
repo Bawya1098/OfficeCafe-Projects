@@ -9,8 +9,8 @@
 <form action="/submission" method="POST" >
         {% for item in items %}
         <li style="list-style-type:none;"><input type="checkbox" name="{{item}}" class="check" >{{ item }}</li>
-        {% endfor %}
-<input type="submit"  value="submit" >
+    {% endfor %}
+    <input type="submit"  value="submit" >
 </form>
 </body>
 </html>
