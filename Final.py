@@ -17,34 +17,86 @@ def index():
 
 
 @app.route('/cafe')
-def second_page():
+def employee_choice():
     return render_template('Employee_choice.html')
 
 
 @app.route('/cafe2')
-def third_page():
-    return render_template('Madras_cafe.html')
+def cold_items():
+    rows = database_hot()
+    items = []
+    for row in rows:
+        items.append(row[0])
+    columns = database_cold_items()
+    lists = []
+    for column in columns:
+        lists.append(column[0])
+    return render_template("Juice_world.html", items=items, lists=lists)
+
+
+def database_hot():
+    cursor = connection.cursor()
+    query = "select items_name from items  where sold_by=2 and is_available='true'"
+    cursor.execute(query)
+    record = cursor.fetchall()
+    return record
+
+
+def database_cold_items():
+    cursor = connection.cursor()
+    cursor.execute("select items_name from items where is_available='true' and sold_by=1 ")
+    result = cursor.fetchall()
+    return result
 
 
 @app.route('/cafe3')
-def third_page1():
-    return render_template('Juice_world.html')
+def hot_items():
+    rows = database_cold()
+    items = []
+    for row in rows:
+        items.append(row[0])
+    columns = database_hot_items()
+    lists = []
+    for column in columns:
+        lists.append(column[0])
+    return render_template("Madras_cafe.html", items=items, lists=lists)
+
+
+def database_cold():
+    cursor = connection.cursor()
+    query = "select items_name from items  where sold_by=1 and is_available='true'"
+    cursor.execute(query)
+    record = cursor.fetchall()
+    return record
+
+
+def database_hot_items():
+    cursor = connection.cursor()
+    cursor.execute("select items_name from items where is_available='true' and sold_by=2 ")
+    result = cursor.fetchall()
+    return result
 
 
 @app.route('/vendor')
 def login_page():
+    return render_template('vendor_login2.html')
+
+
+@app.route('/vendor-choice')
+def login_choice():
     return render_template('vendor login.html')
 
 
-@app.route('/vendor-menu', methods=['POST'])
+@app.route('/vendor-choice', methods=['POST'])
 def vendor_login():
     return validate_data(connection, request.form)
 
 
 def validate_data(connection, user_data):
     cursor = connection.cursor()
-    cursor.execute("select * from vendor_details where  vendor_id =%(id)s and shop =1 or shop = 2 ",
+    cursor.execute("select * from vendor_details where  vendor_id =%(id)s  and shop=1 ",
                    {'id': user_data['id']})
+
     returned_rows = cursor.fetchall()
     cursor.close()
     if len(returned_rows) == 0:
@@ -64,23 +116,101 @@ def juices():
 
 def database_connect_function():
     cursor = connection.cursor()
-    cursor.execute("select items_name from items ")
+    cursor.execute("select items_name from items where sold_by=1")
     record = cursor.fetchall()
     return record
 
 
 @app.route('/submission', methods=['POST'])
 def menu_list_juices():
-    return database_connection_list_cold(connection, request.form)
+    row = database_connection_list_cold(connection, request.form)
+    return render_template('Welcome.html', items=row)
 
 
 def database_connection_list_cold(connection, user_data):
     cursor = connection.cursor()
     array = tuple(user_data.keys())
-    sql_query_yes = "update  items set is_available = 't' WHERE  items_name = %s"
-    cursor.execute(sql_query_yes, array)
+    sql_query = "update items set is_available='false' where sold_by=1"
+    sql_query_yes = "update items set is_available = 'true' WHERE  items_name  IN %s "
+    cursor.execute(sql_query)
+    cursor.execute(sql_query_yes, (array,))
     connection.commit()
     cursor.close()
+    return sql_query_yes
+
+
+# vendor-login for madras cafe#
+
+@app.route('/vendor-choice2')
+def login_choice2():
+    return render_template('vendor_login_hot.html')
+
+
+@app.route('/vendor-choice2', methods=['POST'])
+def vendor_login2():
+    return validate_data2(connection, request.form)
+
+
+def validate_data2(connection, user_data):
+    cursor = connection.cursor()
+    cursor.execute("select * from vendor_details where  vendor_id =%(id)s and shop=2 ",
+                   {'id': user_data['id']})
+    cursor.fetchall()
+    cursor.close()
+    return render_template('vendor choice2.html')
+
+
+@app.route('/vendor-mc', methods=['POST'])
+def hot():
+    list = database_connect_function_2()
+    items = []
+    for row in list:
+        items.append(row[0])
+    return render_template("availability_hot_beverages.html", items=items)
+
+
+def database_connect_function_2():
+    cursor = connection.cursor()
+    cursor.execute("select items_name from items where sold_by=2")
+    record = cursor.fetchall()
+    return record
+
+
+@app.route('/submission1', methods=['POST'])
+def menu_list_hot():
+    row = database_connection_list_hot(connection, request.form)
+    return render_template('Welcome.html', items=row)
+
+
+def database_connection_list_hot(connection, user_data):
+    cursor = connection.cursor()
+    array = tuple(user_data.keys())
+    sql_query = "update items set is_available='false' where sold_by=2"
+    sql_query_yes = "update  items set is_available = 'true' WHERE  items_name IN  %s "
+    cursor.execute(sql_query)
+    cursor.execute(sql_query_yes, (array,))
+    connection.commit()
+    cursor.close()
+    return sql_query_yes
+
+
+@app.route('/confirm-employee-id', methods=['POST'])
+def employee_confirmation():
+    return confirmation_order_hot(connection, request.form)
+
+
+def confirmation_order_hot(connection, user_data):
+    cursor = connection.cursor()
+    cursor.execute("select * from employee_details where  employee_id =%(id)s", {'id': user_data['id']})
+    returned_rows = cursor.fetchall()
+    cursor.close()
+    cursor.close()
+    if len(returned_rows) == 0:
+        return render_template('Welcome.html')
+    else:
+        return render_template('Thanks.html')
+
+
 
 
 if __name__ == '__main__':
