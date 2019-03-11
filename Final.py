@@ -79,7 +79,7 @@ def database_hot_items():
 
 @app.route('/vendor')
 def login_page():
-    return render_template('vendor_login2.html')
+    return render_template('types_vendor.html')
 
 
 @app.route('/vendor-choice')
@@ -87,7 +87,7 @@ def login_choice():
     return render_template('vendor login.html')
 
 
-@app.route('/vendor-choice', methods=['POST'])
+@app.route('/vendor-login', methods=['POST'])
 def vendor_login():
     return validate_data(connection, request.form)
 
@@ -100,7 +100,7 @@ def validate_data(connection, user_data):
     returned_rows = cursor.fetchall()
     cursor.close()
     if len(returned_rows) == 0:
-        return render_template('vendor login .html')
+        return render_template('types_vendor.html')
     else:
         return render_template('vendor choice.html')
 
@@ -141,12 +141,12 @@ def database_connection_list_cold(connection, user_data):
 
 # vendor-login for madras cafe#
 
-@app.route('/vendor-choice2')
+@app.route('/vendor-choice')
 def login_choice2():
-    return render_template('vendor_login_hot.html')
+    return render_template('vendor login.html')
 
 
-@app.route('/vendor-choice2', methods=['POST'])
+@app.route('/vendor-choice', methods=['POST'])
 def vendor_login2():
     return validate_data2(connection, request.form)
 
@@ -194,23 +194,31 @@ def database_connection_list_hot(connection, user_data):
     return sql_query_yes
 
 
-@app.route('/confirm-employee-id', methods=['POST'])
-def employee_confirmation():
-    return confirmation_order_hot(connection, request.form)
+@app.route('/hot-item', methods=['POST'])
+def update_item():
+    update(connection, request.form)
+    return render_template('Welcome.html')
 
 
-def confirmation_order_hot(connection, user_data):
-    cursor = connection.cursor()
-    cursor.execute("select * from employee_details where  employee_id =%(id)s", {'id': user_data['id']})
-    returned_rows = cursor.fetchall()
-    cursor.close()
-    cursor.close()
-    if len(returned_rows) == 0:
-        return render_template('Welcome.html')
-    else:
-        return render_template('Thanks.html')
+def update(connection, user_data):
+    values = list(user_data.values())
+    employee_value = values[-1]
+    values.remove(values[-1])
+    item_key = list(user_data.keys())
+    item_key.remove(item_key[-1])
 
+    for id in list(item_key):
+        quantity = user_data[id]
+        if int(quantity) > 0:
+            cursor = connection.cursor()
+            update_details = "insert into cart(items_id,employee_id,quantity) select items_id,{},{} from items where items_id = {}".format(
+                employee_value, quantity, id)
 
+            cursor.execute(update_details)
+            connection.commit()
+            cursor.close()
+        else:
+            print(0)
 
 
 if __name__ == '__main__':
